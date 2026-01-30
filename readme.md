@@ -6,7 +6,7 @@ https://github.com/Eve-LynBremner/Migrating_My_Website_To_Bootstrap.git
 
 Page
 
-[not yet deployed]
+https://eve-lynbremner.github.io/Migrating_My_Website_To_Bootstrap/
 
 ## Challenge
 
