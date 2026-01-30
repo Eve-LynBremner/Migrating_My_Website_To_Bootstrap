@@ -34,19 +34,15 @@ img {
     margin: 0%;
 }
 
+.dropdown-menu {
+    background-color: var(--primary-color);
+    padding: 0px;
+}
+
 
 header, footer {
     padding: 5px;
     background-color: var(--secondary-color);
-}
-
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: var(--secondary-color);
-    justify-items: center;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .links, #copyright {
@@ -55,25 +51,22 @@ header, footer {
     margin: 1%;
 }
 
-.options, .bannerbox, .tier2 {
+
+.bannerbox, .tier2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.tier2 > * {
-    flex: 1;
-}
-
-.aside {
-    margin-left: 1%;
-    margin-bottom: 1%; 
-}
 
 .group {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.group .box {
+    flex: 1;
 }
 
 .box {
@@ -82,7 +75,6 @@ header, footer {
     margin: 2%;
     background-color: var(--secondary-color);
     text-align: center;
-    flex: 1 1;
 }
 
 #name, #email, #message {
@@ -106,10 +98,6 @@ a, #copyright, h2, p {
     background-position: center;
     background-repeat: no-repeat;
 } 
-
-.form {
-    padding: 2%;
-}
 
 
 video {
@@ -138,7 +126,7 @@ video {
 
 .button:hover { 
     background-color: var(--tertiary-color); 
-    font-weight: 530 ;
+    font-weight: 550 ;
     transform: scale(1.1);
 }
 
@@ -149,7 +137,10 @@ video {
 
 .brandtext {
     font-size: 100%;
+    font-weight: 550;
 }
+
 .amazonbutton {
-    transform: scale(0.8);
+    transform: scale(0.9);
+    font-weight: 550 ;
 }
