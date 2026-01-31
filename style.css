@@ -26,6 +26,13 @@ body {
     color: var(--text-color);
 }
 
+/* Change carousel arrows to a darker colour */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+
 /* Most formatting of boxes and buttons were completed in html using Bootstrap utility classes and grid layout. Hence, most of the css was 
 deleted in the migration to Bootstrap. All that remains are custom color formatting, image/video formatting, and formatting pseudo clases */
 
