@@ -29,6 +29,13 @@ body {
 /* Most formatting of boxes and buttons were completed in html using Bootstrap utility classes and grid layout. Hence, most of the css was 
 deleted in the migration to Bootstrap. All that remains are custom color formatting, image/video formatting, and formatting pseudo clases */
 
+
+.nav-link, .dropdown-item {
+     font-size: 19px;
+     color: var(--text-color);
+}
+
+
 .logo {
     width: 150px;
     border-radius: 50%;
